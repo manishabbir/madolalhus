@@ -1,9 +1,8 @@
 {
-  "buildCommand": null,
+  "buildCommand": "flutter build web --release",
   "outputDirectory": "build/web",
   "devCommand": "flutter run -d web",
-  "installCommand": null,
-  "framework": "flutter",
+  "installCommand": "flutter pub get",
   "rewrites": [
     {
       "source": "/(.*)",
