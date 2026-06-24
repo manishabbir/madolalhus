@@ -1,0 +1,13 @@
+{
+  "buildCommand": null,
+  "outputDirectory": "build/web",
+  "devCommand": "flutter run -d web",
+  "installCommand": null,
+  "framework": "flutter",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

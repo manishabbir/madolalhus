@@ -1,0 +1,6 @@
+const List<String> availableFeatures = [
+  'SECURE_AUTHENTICATION',
+  'INVENTORY_MANAGEMENT',
+  'POS_REGISTER',
+  'CUSTOMER_MANAGEMENT',
+];

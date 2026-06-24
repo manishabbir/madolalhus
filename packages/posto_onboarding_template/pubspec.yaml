@@ -1,0 +1,25 @@
+name: posto_onboarding_template
+description: Posto onboarding, empty dashboard shell, and offline-aware connectivity.
+version: 0.4.0
+publish_to: none
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  shared_preferences: ^2.5.5
+  url_launcher: ^6.3.2
+  google_fonts: ^8.1.0
+  supabase_flutter: ^2.14.2
+  http: ^1.6.0
+  connectivity_plus: ^7.1.1
+  web: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0

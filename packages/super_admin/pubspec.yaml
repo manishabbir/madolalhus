@@ -1,0 +1,26 @@
+name: super_admin
+description: Super admin panel for controlling tenant plans and customizing plan features.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.7.0
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  supabase_flutter: ^2.14.2
+  google_fonts: ^8.1.0
+  flutter_riverpod: ^2.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  mocktail: ^1.0.3
+  equatable: ^2.0.5
+
+flutter:
